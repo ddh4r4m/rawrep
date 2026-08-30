@@ -594,3 +594,8 @@ h1 {
 }
 
 .tick-input:focus-visible ~ .demo-card .tick-label { outline: 2px solid var(--volt); outline-offset: 3px; }
+
+/* Guide screenshots */
+.shot { margin: 1.25rem 0 1.75rem; }
+.shot img { display:block; width:min(300px, 80%); height:auto; margin:0 auto; border-radius:22px; box-shadow:0 12px 40px rgba(0,0,0,.55); border:1px solid rgba(255,255,255,.06); }
+.shot figcaption { text-align:center; font-size:.85rem; opacity:.7; margin-top:.6rem; }
