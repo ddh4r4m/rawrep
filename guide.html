@@ -3,22 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms of Use — RawRep</title>
-<meta name="description" content="RawRep terms of use: Apple's Standard EULA applies, plus a summary of subscription terms.">
+<title>Guide — RawRep</title>
+<meta name="description" content="How to use RawRep: your first workout, logging a set in two taps, the overload suggestion, the Lock Screen rest timer, history, progress charts, the widget and Shortcuts.">
 <meta name="theme-color" content="#0B0B0D">
 <meta name="color-scheme" content="dark">
-<link rel="canonical" href="https://ddh4r4m.github.io/rawrep/terms.html">
+<link rel="canonical" href="https://ddh4r4m.github.io/rawrep/guide.html">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="RawRep">
-<meta property="og:title" content="Terms of Use — RawRep">
-<meta property="og:description" content="RawRep terms of use: Apple's Standard EULA applies, plus a summary of subscription terms.">
-<meta property="og:url" content="https://ddh4r4m.github.io/rawrep/terms.html">
+<meta property="og:title" content="Guide — RawRep">
+<meta property="og:description" content="How to use RawRep: your first workout, logging a set in two taps, the overload suggestion, the Lock Screen rest timer, history, progress charts, the widget and Shortcuts.">
+<meta property="og:url" content="https://ddh4r4m.github.io/rawrep/guide.html">
 <meta property="og:image" content="https://ddh4r4m.github.io/rawrep/img/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Terms of Use — RawRep">
-<meta name="twitter:description" content="RawRep terms of use: Apple's Standard EULA applies, plus a summary of subscription terms.">
+<meta name="twitter:title" content="Guide — RawRep">
+<meta name="twitter:description" content="How to use RawRep: your first workout, logging a set in two taps, the overload suggestion, the Lock Screen rest timer, history, progress charts, the widget and Shortcuts.">
 <meta name="twitter:image" content="https://ddh4r4m.github.io/rawrep/img/og.png">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32">
@@ -32,7 +32,7 @@
   <div class="wrap nav-in">
     <a class="brand" href="index.html" aria-label="RawRep home"><svg class="mark" viewBox="0 0 1024 1024" aria-hidden="true"><use href="#mark"/></svg><span class="word">RawRep</span></a>
     <nav class="nav-links" aria-label="Site">
-      <a href="guide.html">Guide</a>
+      <a href="guide.html" aria-current="page">Guide</a>
       <a href="privacy.html">Privacy</a>
       <a href="support.html">Support</a>
     </nav>
@@ -42,23 +42,58 @@
 <main class="prose">
   <div class="wrap">
     <div class="prose-in">
-    <span class="kicker">Legal</span>
-    <h1>Terms of Use</h1>
+    <span class="kicker">Help</span>
+    <h1>How RawRep works</h1>
+    <p>RawRep is built around one idea: log the set you just did in two taps, and let the phone handle the rest. This page walks through a first workout and everything you'll meet on the way. No account, no internet needed.</p>
 
-      <p>RawRep does not have a custom End User License Agreement. By downloading or using the app, you agree to Apple's Standard End User License Agreement (EULA), which governs your use of RawRep:</p>
-      <p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a></p>
+    <h2>1. Your first workout</h2>
+    <p>The <strong>Workout</strong> tab lists your routines — RawRep starts you with Push, Pull, Legs and an Upper-Lower day. Tap a routine to start it. You can edit any routine (or make your own) from the routines button at the top right: add exercises, set how many sets and which rep range you're aiming for.</p>
 
-      <h2>Subscriptions</h2>
-      <p>RawRep Pro is offered as an auto-renewing yearly subscription, an auto-renewing monthly subscription, or a one-time lifetime purchase. A short summary:</p>
-      <ul>
-        <li>The yearly plan includes a 7-day free trial. If you don't cancel before the trial ends, it converts into a paid yearly subscription.</li>
-        <li>Subscriptions renew automatically unless auto-renew is turned off at least 24 hours before the end of the current period.</li>
-        <li>Payment is charged to your Apple ID account at confirmation of purchase, and again at renewal.</li>
-        <li>You can manage or cancel your subscription any time in iOS Settings → your name → Subscriptions, or from Settings within RawRep.</li>
-        <li>The lifetime option is a single non-consumable purchase — it never renews or expires.</li>
-      </ul>
+    <h2>2. Logging a set — the row</h2>
+    <p>Each exercise shows one row per set, with four columns:</p>
+    <dl>
+      <dt>SET</dt>
+      <dd>The set number and its type. "Working" is a normal set; warm-up sets are marked and don't count toward your bests.</dd>
+      <dt>PREV</dt>
+      <dd>What you did for this set last time — for example <code>85 × 5</code>. It's a reference, not a field: you can't edit it.</dd>
+      <dt>KG / LB and REPS</dt>
+      <dd>The two numbers you're logging. They're pre-filled from last time (or from the routine's target), so if you did the same again you don't touch them. Tap one to change it — a big keypad opens; type, then tap Done.</dd>
+      <dt>✓</dt>
+      <dd>The set is done. Tapping the tick saves it immediately and starts your rest timer. That's the two taps: adjust if needed, tick.</dd>
+    </dl>
+    <p>Need another set? "Add set" at the bottom of the exercise. The ⋯ menu on an exercise lets you remove it for today.</p>
 
-      <p>See our <a href="privacy.html">Privacy Policy</a> for how your data is handled, and <a href="support.html">Support</a> for help with purchases.</p>
+    <h2>3. The suggestion line</h2>
+    <p>Above each exercise you'll see something like <code>Last 85 kg × 5 → try 85 kg × 6</code>. The left side is your best working set last time. The right side is RawRep's progressive-overload suggestion: add a rep until you reach the top of your rep range, then add weight and drop back down. It's a suggestion — log whatever you actually lift.</p>
+
+    <h2>4. The rest timer</h2>
+    <p>Every tick starts a rest countdown (90 seconds by default, per exercise; change the defaults in Settings → Rest timer). A bar at the bottom of the workout shows the time with <strong>−30</strong>, <strong>+30</strong> and <strong>Skip</strong>.</p>
+    <p>Lock your phone and the countdown carries on as a Live Activity on the <strong>Lock Screen</strong> and in the Dynamic Island — you don't have to unlock to see it. When it reaches zero it shows GO and you get a notification. If you don't see it, check Settings → RawRep → Live Activities is on, and that Focus modes aren't hiding it (see <a href="support.html">Support</a>).</p>
+
+    <h2>5. Finishing</h2>
+    <p>Tap <strong>Finish</strong> (top right) when you're done. You'll see a summary: sets, volume, duration and any personal records you set — a PR is the best weight, best estimated one-rep max or most reps at a weight for that exercise. Tap Done and the workout goes into <strong>History</strong>.</p>
+    <p>Started the wrong routine? The ⋯ menu next to Finish lets you discard the workout.</p>
+
+    <h2>6. History and Progress</h2>
+    <p>The <strong>History</strong> tab lists every workout; tap one to see all its sets. Tap an exercise anywhere to see its full history.</p>
+    <p>The <strong>Progress</strong> tab draws charts per exercise — estimated one-rep max, top set and weekly volume — plus a sets-per-muscle view for the current week against a 10–20 sets guide. Charts are part of <strong>RawRep Pro</strong>; everything you log stays free forever, and Pro adds the numbers on top.</p>
+
+    <h2>7. Faster starts: widget and Shortcuts</h2>
+    <p>Add the <strong>RawRep widget</strong> to your Home Screen: it shows "Next up" with the routine that follows the one you last did, and tapping it starts that workout straight away.</p>
+    <p>In the <strong>Shortcuts</strong> app, RawRep offers <strong>Start Workout</strong> (with a routine picker) and <strong>Start Rest Timer</strong>. You can add them to a Focus, an automation, or the Action button. You can also give them your own Siri phrase in Shortcuts.</p>
+
+    <h2>8. Settings worth knowing</h2>
+    <ul>
+      <li><strong>Units</strong> — kg or lb, switch any time; your logs are converted for display, never altered.</li>
+      <li><strong>Rest timer</strong> — default length, sound and haptics, whether warm-up sets start the timer.</li>
+      <li><strong>Health</strong> — optionally save finished workouts to Apple Health (Pro).</li>
+      <li><strong>Plates &amp; bar</strong> — tell RawRep which plates you own and it shows what to load for any weight, from the keypad (Pro).</li>
+      <li><strong>Your data</strong> — export everything as CSV or JSON, free; or delete it all.</li>
+      <li><strong>How RawRep works</strong> — re-opens the short in-app walkthrough.</li>
+    </ul>
+
+    <h2>Still stuck?</h2>
+    <p>See <a href="support.html">Support</a> for FAQs, or email <a href="mailto:fernhilldiaries@gmail.com">fernhilldiaries@gmail.com</a>.</p>
     </div>
   </div>
 </main>
